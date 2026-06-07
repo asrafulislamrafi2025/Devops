@@ -4,7 +4,7 @@ print ("my name is github")
 i=1
 sum=0
 while i<=6:
-sum=sum+i
+      sum=sum+i
 print(sum)
-i=i+1
+      i=i+1
 
