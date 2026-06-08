@@ -1,2 +1,1 @@
-# Devops
-Job
+Learning DevOps
