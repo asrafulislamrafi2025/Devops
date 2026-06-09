@@ -21,3 +21,6 @@ if password=="r@fi120"
 else:
      print("wrong password")
 
+
+office=["google","microsoft","IBM"]
+print(office)
