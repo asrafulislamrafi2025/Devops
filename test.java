@@ -1,1 +1,1 @@
-print("java is very hard i dont like to learn java")
+console.log (cartest hire game with java)
