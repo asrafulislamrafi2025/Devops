@@ -108,3 +108,5 @@ Meaning
 
 -Pull code
 ->git pull
+
+-> git pull origin main --rebase
