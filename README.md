@@ -110,3 +110,4 @@ Meaning
 ->git pull
 
 -> git pull origin main --rebase
+-> new branch in git-- git switch-c branch name
