@@ -24,3 +24,14 @@ else:
 
 office=["google","microsoft","IBM"]
 print(office)
+
+
+student_id{
+
+101:rafi
+102:moon
+103:niha
+104:jerin
+}
+
+print(student.get)
