@@ -110,4 +110,6 @@ Meaning
 ->git pull
 
 -> git pull origin main --rebase
+
+->for connected git with github-->git push -u origin feature1
 -> new branch in git-- git switch-c branch name
