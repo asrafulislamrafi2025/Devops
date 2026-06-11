@@ -113,3 +113,13 @@ Meaning
 
 ->for connected git with github-->git push -u origin feature1
 -> new branch in git-- git switch-c branch name
+
+
+
+
+docker run -d -p 8081:80 nginx   # new server
+docker ps                        # running check
+docker stop ID                   # stop
+docker start ID                  # start again
+docker exec -it ID sh            # inside go
+``
