@@ -115,11 +115,29 @@ Meaning
 -> new branch in git-- git switch-c branch name
 
 
-
+##nginx server
 
 docker run -d -p 8081:80 nginx   # new server
 docker ps                        # running check
 docker stop ID                   # stop
 docker start ID                  # start again
 docker exec -it ID sh            # inside go
+
+##ubuntu terminal
+
+docker run -it ubuntu bash
+docker ps -a
+docker start <ID>
+docker exec -it <ID> bash
+
+
+
+
+
+
+
+
+
+
+
 ``
