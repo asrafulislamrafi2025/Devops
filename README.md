@@ -4,131 +4,84 @@ Md Asraful Islam Rafi
 Development and Operations Engineer
 The University Of Ulster,London,England
 
-##Linux leaering journey
+## 📁File & Directory Management
 
-The repository contains my Linux,Git,Github and DevOps practice notes
+ls            # List files
+ls -l         # Detailed file list
+ls -a         # Show hidden files
 
--List files
-->ls
+cd foldername # Change directory
+cd ..         # Go back one directory
+cd ~          # Go to home directory
 
--Details file list
-->ls -l
+mkdir project # Create directory
+rm file.txt   # Delete file
+rm -r folder  # Delete folder (recursive)
 
--Hidden files show
-->ls -a
+## 📄File Commands
+touch file.txt   # Create file
+nano file.txt    # Open file in editor
+cat file.txt     # Show file content
+## 🔐File permission command
+chmod +x app.py  # Make file executable
+ls -l            # Check permissions
 
--Change Directory
-->cd foldername 
+-rwxr-xr-x
+r → Read
+w → Write
+x → Execute
 
--Go back directory
-->cd ..
+## 🌿Git Commands
 
--Go home directory
-->cd ~
+git init                  # Initialize repository
+git status                # Check status
 
--Create directory
-->mkdir project
+git add .                 # Add all files
+git add app.py            # Add specific file
 
--Remove file
-->rm file.txt
+git commit -m "message"   # Commit changes
 
--Remove folder
-->rm -r foldername
+git log                   # View commit history
+git log --oneline         # One-line history
 
-##File commands
+git diff                  # Check changes
+git show                  # Show commit details
 
+git rm file.txt           # Remove tracked file
 
--Create file
-->touch file.txt
+🌐 GitHub Commands
 
--Open file
-->nano file.txt
+git clone URL                     # Clone repository
+git remote add origin URL        # Connect remote repo
 
--Show file content
-->cat file.txt
+git push                         # Push code
+git pull                         # Pull latest code
+git pull origin main --rebase    # Pull with rebase
 
-## File permission commands
+git push -u origin feature1      # Push new branch
 
--Make file executable
-->chmod +x app.py
-
--Check file permissions
-->ls -l
-
--Permission example
-->-rwxr-xr-x
-
-Meaning
-~Read
-~Write
-~Execute
-
-[Git commands I learned]
-
--Initialized Git
-->git init
-
--Check Git Status
-->git status
-
--Add all files
-->git add.
-
--Add specific file
-->git add app.py
-
--commit changes
-->git commit -m "massage"
-
--Check commit history
-->git.log
-
--One line log
-->git log -oneline
-
--Check file changes
-->git diff
-
--Show commit details
-->git show
-
--Remove git tract files
-->git rm file.txt
-
-[GitHub I learned]
-
--Clone Repository
--> git clone REPOSITORY_LINK
-
--Connect GitHub Repository
-->git remote add origin URL
-
--Push code
-->git push
-
--Pull code
-->git pull
-
--> git pull origin main --rebase
-
-->for connected git with github-->git push -u origin feature1
--> new branch in git-- git switch-c branch name
+git switch -c branch_name        # Create & switch branch
 
 
-##nginx server
+🐳 Docker (Nginx Server)
 
-docker run -d -p 8081:80 nginx   # new server
-docker ps                        # running check
-docker stop ID                   # stop
-docker start ID                  # start again
-docker exec -it ID sh            # inside go
+docker run -d -p 8081:80 nginx   # Run nginx server
+docker ps                        # Check running containers
 
-##ubuntu terminal
+docker stop <ID>                 # Stop container
+docker start <ID>                # Start container
 
-docker run -it ubuntu bash
-docker ps -a
-docker start <ID>
-docker exec -it <ID> bash
+docker exec -it <ID> sh          # Access container shell
+
+
+🐳 Ubuntu Container Commands
+
+docker run -it ubuntu bash       # Start Ubuntu container
+
+docker ps -a                     # Show all containers
+docker start <ID>                # Start container
+
+docker exec -it <ID> bash        # Enter container
 
 
 
